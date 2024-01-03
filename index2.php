@@ -21,7 +21,7 @@
           <a class="nav-link active" aria-current="page" href="#"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><p class="text-primary-emphasis">Home</p></a>
+          <a class="nav-link" href="#"><p class="text-primary-emphasis">Hhome</p></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"><p class="text-primary-emphasis">lawyers</p></a>
