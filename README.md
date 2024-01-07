@@ -1,1 +1,1 @@
-Laws-prac is a concept of group of lawyers whose goal is to expand the legal scope and make things easier for citizens and its essential for reaching customers and establishing their trustworthiness and credibility in the field.
+Lawyers of Now is a concept of group of lawyers whose goal is to expand the legal scope and make things easier for citizens and its essential for reaching customers and establishing their trustworthiness and credibility in the field.
