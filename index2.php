@@ -146,6 +146,137 @@ if (isset($_GET) && $_GET && $_GET['search']){
   position:relative;
   overflow: hidden;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
 </style>
 
   <body>
@@ -183,10 +314,6 @@ if (isset($_GET) && $_GET && $_GET['search']){
         </div>
 </form>
 </nav>
-
-
-
-
 
       <div id="demo" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -233,47 +360,43 @@ if (isset($_GET) && $_GET && $_GET['search']){
      <h class="fs-6">Our Lawyers ensures the defense of your interests and intervenes as:</h><cite title="Source Title"></cite>
      </figcaption>
     </figure>
-
 <br>
-<br>
-
-    <div class="container text-center mt-5">
-    <div class="row">
+<div class="container text-center mt-5 g-2">
+    <div class="row row-gap-3">
     <div class="col-md-4">
     <img src="peo.png" class="img-fluid rounded mb-3" alt="Image 1">
-    <h1>Family Lawyer</h1>
+    <h2>Family Lawyer</h2>
     <br>
-    <p class="fw-light fs-5">Support in the context of the following procedures: marriage annulment, PACS, parentage, adoption, change of name or first name, right of visitation and accommodation of grandparents. Protected adults. Succession...</p>
+    <p class="fw-light fs-6"><h6>Support in the context of the following procedures: marriage annulment, PACS, parentage, adoption, change of name or first name, right of visitation and accommodation of grandparents. Protected adults. Succession...</h6></p>
     <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Moreover</a></p>
     </div>
 
     <div class="col-md-4">
     <img src="police.png" class="img-fluid rounded mb-3" alt="Image 2">
-    <h1>Criminal Law</h2>
+    <h2>Criminal Law</h2>
     <br>
-    <p class="fw-light fs-5">Criminal defense before the competent criminal courts, such as the investigating judge, the police court and others. Perpetrator or victim of criminal offense. Jail. Compensation for material or moral damage. Family criminal law (domestic violence).</p>
+    <p class="fw-light fs-6"><h6>Criminal defense before the competent criminal courts, such as the investigating judge, the police court and others. Perpetrator or victim of criminal offense. Jail. Compensation for material or moral damage. Family criminal law (domestic violence).</h6></p>
     <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Moreover</a></p>
     </div>
-
+  
     <div class="col-md-4">
     <img src="fiscal.png" class="img-fluid rounded mb-3" alt="Image 3">
-    <h1>Fiscal Law</h1>
+    <h2>Fiscal Law</h2>
     <br>
-    <p class="fw-light fs-5">We work on fiscal matters related to the spending of appropriated funds in a collaborative and fast-paced work environment, and handle other administrative law accounts as assigned.</p>
+    <p class="fw-light fs-6"><h6>We work on fiscal matters related to the spending of appropriated funds in a collaborative and fast-paced work environment, and handle other administrative law accounts as assigned.</h6></p>
     <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Moreover</a></p>
     </div>
     </div>
     </div>
     <br>
-    <div>
-    
+    </br>
+
    <figure class="text-center">
    <blockquote class="blockquote fs-1 fw-semibold">
    <p>Our Lawyers</p>
    <img src="bala.png" class="rounded" alt="...">
    </blockquote>
 
-<br>
 <br>
 
     <?php
@@ -314,6 +437,11 @@ if ($result->num_rows > 0) {
       </div>
       </div>
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 <button class="open-button" onclick="openForm()">Let'discuss</button>
 
 <div class="chat-popup" id="myForm">
@@ -328,6 +456,37 @@ if ($result->num_rows > 0) {
 </div>
 
 
+<footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Lawyers</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Specialities</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul>
+    <p>2024 All Rights Reserved</p>
+  </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -341,6 +500,7 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 </script>
-
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
