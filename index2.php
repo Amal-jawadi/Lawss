@@ -302,7 +302,10 @@ body {
           <a class="nav-link text-center" href="#"><p class="text-primary-emphasis fs-5">Specialties</p></a>
            </li>
            <li class="nav-item">
-          <a class="nav-link text-center" href="#"><p class="text-primary-emphasis fs-5">Contacts</p></a>
+          <a class="nav-link text-center" href="http://localhost/Lawss/login.php"><p class="text-primary-emphasis fs-5">Login</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-center" href="http://localhost/Lawss/contact2.php"><p class="text-primary-emphasis fs-5">Contact</p></a>
         </li>
         </ul>
         </div>
@@ -481,7 +484,7 @@ if ($result->num_rows > 0) {
       <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
       <li class="menu__item"><a class="menu__link" href="#">Lawyers</a></li>
       <li class="menu__item"><a class="menu__link" href="#">Specialities</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+      <li class="menu__item"><a class="menu__link" href="http://localhost/Lawss/login.php">Login</a></li>
 
     </ul>
     <p>2024 All Rights Reserved</p>
