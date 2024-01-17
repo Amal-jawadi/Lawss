@@ -1,19 +1,20 @@
 <?php
+    session_start();
     if (isset($_POST) && ($_POST)){
         include_once("connectt.php");
 
         $sql = "INSERT INTO `contact2`(`name`, `email`,`city`, `state`, `gender`, `message`) 
         VALUES ('" . $_POST['name'] . "', '" . $_POST['email'] . "', '" . $_POST['city'] .  "', '" . $_POST['state'] . "', '" . $_POST['gender'] ."', '" . $_POST['message']."');";
     
-        if ($conn->query($sql) === TRUE) {
-            echo "";
-        } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-
-        }
-        
-        $conn->close();
+    if ($conn->query($sql) === TRUE) {
+        $_SESSION['message'] = "Form submitted successfully!";
+        header('Location: /Lawss/login.php');
+        die;
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
+    $conn->close();
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -27,7 +28,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <style>
-  
+
 </style>
 <body>
 <nav>
@@ -76,7 +77,7 @@
             <div class="col-xl-6 d-none d-xl-block">
               <img src="form.jpg"
                 alt="" class="img-fluid"
-                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem; height:100%;" />
             </div>
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
@@ -123,6 +124,8 @@
                 <label for="message" class="form-label">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="3"></textarea>
               </div>
+              <br>
+              
                 <div class="d-grid gap-2">
                 <button class="btn btn-primary" type="submit">Submit</button>
               </div>
