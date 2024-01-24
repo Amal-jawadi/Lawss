@@ -164,7 +164,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
     <h2>Family Lawyer</h2>
     <br>
     <p class="fw-light fs-6"><h6>Support in the context of the following procedures: marriage annulment, PACS, parentage, adoption, change of name or first name, right of visitation and accommodation of grandparents. Protected adults. Succession...</h6></p>
-    <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Moreover</a></p>
+    <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="https://wrcati.cawtar.org/preview.php?type=law&ID=10">Moreover</a></p>
     </div>
 
     <div class="col-md-4">
@@ -172,7 +172,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
     <h2>Criminal Law</h2>
     <br>
     <p class="fw-light fs-6"><h6>Criminal defense before the competent criminal courts, such as the investigating judge, the police court and others. Perpetrator or victim of criminal offense. Jail. Compensation for material or moral damage. Family criminal law (domestic violence).</h6></p>
-    <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Moreover</a></p>
+    <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="https://wrcati.cawtar.org/preview.php?type=law&ID=319">Moreover</a></p>
     </div>
   
     <div class="col-md-4">
@@ -180,7 +180,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
     <h2>Fiscal Law</h2>
     <br>
     <p class="fw-light fs-6"><h6>We work on fiscal matters related to the spending of appropriated funds in a collaborative and fast-paced work environment, and handle other administrative law accounts as assigned.</h6></p>
-    <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="#">Moreover</a></p>
+    <p><a class="link-offset-2 link-underline link-underline-opacity-25" href="https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/Code%20des%20soci%C3%A9t%C3%A9s%20commerciales%20arabe.pdf">Moreover</a></p>
     </div>
     </div>
     </div>
