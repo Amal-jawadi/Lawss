@@ -44,16 +44,13 @@
           <a class="nav-link active" aria-current="page" href="#"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center" href="#"><p class="text-primary-emphasis fs-5">Home</p></a>
+          <a class="nav-link text-center" href="http://localhost/Lawss/index2.php"><p class="text-primary-emphasis fs-5">Home</p></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center" href="#"><p class="text-primary-emphasis fs-5">lawyers</p></a>
+          <a class="nav-link text-center" href="http://localhost/Lawss/lawyers.php"><p class="text-primary-emphasis fs-5">lawyers</p></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-center" href="#"><p class="text-primary-emphasis fs-5">Specialties</p></a>
-           </li>
            <li class="nav-item">
-          <a class="nav-link text-center" href="#"><p class="text-primary-emphasis fs-5">login</p></a>
+          <a class="nav-link text-center" href="http://localhost/Lawss/login.php"><p class="text-primary-emphasis fs-5">login</p></a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-center" href="http://localhost/Lawss/contact2.php"><p class="text-primary-emphasis fs-5">Contact</p></a>
@@ -131,7 +128,54 @@
               </div>
             </form>
             </div>
-
+            <footer class="bg-body-tertiary text-center">
+  <div class="container p-4 pb-0">
+    <section class="mb-4">
+     
+    <button
+    class="btn text-white btn-floating m-1"
+    style="background-color: #59D7D6;"
+    href="https://www.facebook.com"
+    role="button"
+    onclick="window.open('https://www.facebook.com/'); return false;"
+>
+    <img src="facebook.png" alt="Your image" style="width: 30px; height: 30px;">
+</button>
+<button
+    class="btn text-white btn-floating m-1"
+    style="background-color: #D9D9D9;"
+    href="https://github.com/your-username"
+    role="button"
+    onclick="window.open('https://github.com/your-username/'); return false;"
+>
+    <img src="github.png" alt="Your image" style="width: 30px; height: 30px;">
+</button>
+<button
+    class="btn text-white btn-floating m-1"
+    style="background-color: #F1C2D9;"
+    href="https://www.youtube.com/"
+    role="button"
+    onclick="window.open('https://www.youtube.com/'); return false;"
+>
+    <img src="youtube.png" alt="Your image" style="width: 30px; height: 30px;">
+</button>
+     
+<button
+  class="btn text-white btn-floating m-1"
+  style="background-color: #F0AB78;"
+  href="https://www.instagram.com/"
+  role="button"
+  onclick="window.open('https://www.instagram.com/'); return false;"
+>
+  <img src="instagram.png" alt="Your image" style="width: 30px; height: 30px;">
+</button>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    2024 Copyright:
+    <a class="text-body" href="http://localhost/Lawss/index2.php">Lowyers of Now.</a>
+  </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
