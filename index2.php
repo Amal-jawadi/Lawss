@@ -100,6 +100,7 @@ if (isset($_GET) && $_GET && $_GET['search']){
         <li class="nav-item">
           <a class="nav-link text-center" href="http://localhost/Lawss/contact2.php"><p class="text-primary-emphasis fs-5">Contact</p></a>
         </li>
+        </li>
         </ul>
         </div>
         </div>

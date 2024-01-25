@@ -16,7 +16,7 @@
         $_SESSION["email"] = $user['email'];
         $_SESSION["password"] = $user['password'];
 
-        header('Location: /Lawss/index2.php');
+        header('index.php');
         die;
     }
     $conn->close();
@@ -67,7 +67,7 @@
         </div>
 </nav>
 
-<form action="login.php" method="post">
+<form action="index.php" method="post">
  <div class="mb-3">
     <label for="email" class="form-label">Email</label>
     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
